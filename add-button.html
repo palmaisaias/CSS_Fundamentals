@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* aligns everything in the page down the middle nicely */
+            text-align: center;
+            margin-top: 30px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .recipe-button {
+            background-color: #4c54af;
+            /* text color */
+            color: rgb(198, 202, 220);
+            border: none;
+            padding: 15px;
+            /* takes the underlining away */
+            text-decoration: none;
+            /* keeps it from taking up the whole row space */
+            display:inline-block;
+            font-size: 16px;
+            margin: 4px;
+            /* set cool pointers or grabs */
+            cursor: pointer;
+            /* nice round button */
+            border-radius: 40px;
+        }
+        .recipe-button:hover{
+            /* changes button color when pointer hovers */
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: monospace;">Welcome to the Recipe Submit</h1>
+    <p>Click the button below to submit your favorite recipe:</p>
+    <div class="button-container">
+        <a href="recipe_submission.html" class="recipe-button">Submit a Recipe</a>
+    </div>
+</body>
+</html>
